@@ -1,8 +1,10 @@
+import LayoutPresenter from "@/components/LayoutPresenter";
+
 const HomePage = () => {
   return (
-    <div>
+    <LayoutPresenter>
       <h1>Finnet Page </h1>
-    </div>
+    </LayoutPresenter>
   );
 };
 
