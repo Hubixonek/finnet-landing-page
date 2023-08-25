@@ -1,11 +1,17 @@
 .container {
-  max-width: 100%;
+  position: sticky;
+  width: 100%;
   height: 60px;
-  background-color: gold;
+  z-index: 100;
+  top: 0;
   .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+      rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    z-index: 999;
 
     .finnet {
       margin-left: 20px;
@@ -14,10 +20,31 @@
     ul {
       margin-right: 600px;
       list-style: none;
-    }
-    li {
-      display: inline-block;
-      margin-left: 60px;
+      li {
+        display: inline-block;
+        margin-left: 60px;
+      }
+      a {
+        position: relative;
+
+        &::before {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 2px;
+          border-radius: 4px;
+          background-color: rgb(38, 38, 201);
+          bottom: -5px;
+          left: 0;
+          transform-origin: right;
+          transform: scaleX(0);
+          transition: transform 0.3s ease-in-out;
+        }
+        &:hover::before {
+          transform-origin: left;
+          transform: scaleX(1);
+        }
+      }
     }
     a {
       cursor: pointer;
@@ -35,5 +62,9 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+
+    &:hover {
+      background-color: rgba(38, 38, 201, 0.856);
+    }
   }
 }

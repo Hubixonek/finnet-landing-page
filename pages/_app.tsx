@@ -9,6 +9,9 @@ export default function App({ Component, pageProps }: AppProps) {
         html {
           font-family: ${rem.style.fontFamily};
         }
+        body {
+          margin: 0;
+        }
       `}</style>
       <Component {...pageProps} />
     </>
