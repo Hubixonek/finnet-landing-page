@@ -1,0 +1,45 @@
+.sectionGroup {
+  font-family: "Josefin Sans", sans-serif;
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #ffffff,
+    #ffffff,
+    #ffffff,
+    #ffffff,
+    #ffffff,
+    #ffffff,
+    #ffffff,
+    #c3c9fe00,
+    #a0b4fe46,
+    #72a1ff5e,
+    #0091ff33
+  );
+  height: 800px;
+
+  .finnetPulpit {
+    width: 920px;
+    margin-left: 800px;
+    .finnetImage {
+      transform: translateY(-445px);
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+  }
+}
+.container {
+  margin-left: 300px;
+  width: 450px;
+
+  .descriptionOne,
+  .descriptionTwo,
+  .descriptionThree {
+    height: 130px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+      rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    padding: 15px;
+    border-left: 6px solid royalblue;
+    margin-top: 5px;
+  }
+}

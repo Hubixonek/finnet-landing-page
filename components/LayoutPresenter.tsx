@@ -1,12 +1,14 @@
 import NavbarPresenter from "./Navbar/NavbarPresenter";
 import FooterPresenter from "./Footer/FooterPresenter";
-import FirstSection from "./FirstSection/FirstSection";
+import ContentSectionPresenter from "./ContentSection/ContentSectionPresenter";
+import FirstSectionPresenter from "./FirstSection/FirstSectionPresenter";
 const LayoutPresenter = () => {
   return (
     <div>
       <NavbarPresenter />
       <main>
-        <FirstSection />
+        <FirstSectionPresenter />
+        <ContentSectionPresenter />
       </main>
       <FooterPresenter />
     </div>

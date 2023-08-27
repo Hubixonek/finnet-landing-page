@@ -17,10 +17,7 @@ const NavbarPresenter = () => {
           </li>
         </ul>
         <div className={styles["buttonGroup"]}>
-          <Link
-            href="https://finnet.bieda.it/registerform"
-            rel="noopener"
-            target="_blank">
+          <Link href="https://finnet.bieda.it" rel="noopener" target="_blank">
             Przejdź do naszej aplikacji
           </Link>
         </div>

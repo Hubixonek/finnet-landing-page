@@ -12,7 +12,7 @@
   padding: 20px;
 
   .styledColumn {
-    width: 550px;
+    width: 490px;
     margin-left: 300px;
     margin-top: 50px;
     .uiTextBlock {
@@ -20,30 +20,51 @@
       color: white;
 
       .btnCustom {
+        width: 250px;
+        background-color: rgb(38, 38, 201);
+        padding: 15px;
+        text-decoration: none;
+        color: white;
         height: 50px;
         border-radius: 5px;
+        &:hover {
+          color: rgba(255, 255, 255, 0.884);
+        }
       }
     }
   }
   .picturesContainer {
     width: 650px;
     margin-left: auto;
-    margin-right: 150px;
-    transform: translateY(-270px);
+    margin-right: 90px;
+    transform: translateY(-250px);
 
     .rotateImage {
-      transform: rotate(15deg);
+      transform: rotate(0deg);
       margin-left: 105px;
-      box-shadow: rgba(0, 0, 0, 0) 0px 14px 28px,
-        rgba(0, 0, 0, 0.22) 0px 10px 10px;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      border-radius: 15px;
     }
-    .depositImageContainer {
+    .depositImage {
       display: flex;
-      box-shadow: rgba(0, 0, 0, 0) 0px 14px 28px,
-        rgba(0, 0, 0, 0.22) 0px 10px 10px;
-      width: 100px;
-      height: 200px;
-      transform: rotate(-25deg) translateY(-270px) translateX(60px);
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      width: 250px;
+      height: 500px;
+      transform: translateY(-428px) translateX(-130px);
+      border-radius: 15px;
+    }
+    .depositThoastImage {
+      display: flex;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      width: 250px;
+      height: 60px;
+      transform: translateY(-532px) translateX(480px);
     }
   }
 }
