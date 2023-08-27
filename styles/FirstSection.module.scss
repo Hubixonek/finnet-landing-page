@@ -1,3 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;1,300&display=swap");
 .section {
-  height: 800px;
+  font-family: "Josefin Sans", sans-serif;
+  height: 580px;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 110, 255, 0),
+      rgba(252, 252, 252, 0.61)
+    ),
+    url("../public/wave-background.svg");
+  background-repeat: no-repeat;
+  padding: 20px;
+
+  .styledColumn {
+    width: 550px;
+    margin-left: 300px;
+    margin-top: 50px;
+    .uiTextBlock {
+      font-size: 24px;
+      color: white;
+
+      .btnCustom {
+        height: 50px;
+        border-radius: 5px;
+      }
+    }
+  }
+  .picturesContainer {
+    width: 650px;
+    margin-left: auto;
+    margin-right: 150px;
+    transform: translateY(-270px);
+
+    .rotateImage {
+      transform: rotate(15deg);
+      margin-left: 105px;
+      box-shadow: rgba(0, 0, 0, 0) 0px 14px 28px,
+        rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    }
+    .depositImageContainer {
+      display: flex;
+      box-shadow: rgba(0, 0, 0, 0) 0px 14px 28px,
+        rgba(0, 0, 0, 0.22) 0px 10px 10px;
+      width: 100px;
+      height: 200px;
+      transform: rotate(-25deg) translateY(-270px) translateX(60px);
+    }
+  }
 }

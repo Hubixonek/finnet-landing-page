@@ -1,13 +1,15 @@
 import type { AppProps } from "next/app";
-import { REM } from "next/font/google";
-const rem = REM({ subsets: ["latin"] });
+import { Plus_Jakarta_Sans } from "next/font/google";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+const plusJakartaSans = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <style jsx global>{`
         html {
-          font-family: ${rem.style.fontFamily};
+          font-family: ${plusJakartaSans.style.fontFamily};
         }
         body {
           margin: 0;

@@ -1,4 +1,5 @@
 import styles from "../../styles/Navbar.module.scss";
+import Link from "next/link";
 
 const NavbarPresenter = () => {
   return (
@@ -16,7 +17,12 @@ const NavbarPresenter = () => {
           </li>
         </ul>
         <div className={styles["buttonGroup"]}>
-          <a>Przejdź do naszej aplikacji</a>
+          <Link
+            href="https://finnet.bieda.it/registerform"
+            rel="noopener"
+            target="_blank">
+            Przejdź do naszej aplikacji
+          </Link>
         </div>
       </nav>
     </div>
