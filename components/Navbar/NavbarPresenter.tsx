@@ -1,12 +1,21 @@
 import styles from "../../styles/Navbar.module.scss";
 import Link from "next/link";
+type TSmoothScrollHandler = {
+  smoothScrollHandler: (value: Event) => void;
+};
 
-const NavbarPresenter = () => {
+const NavbarPresenter = ({ smoothScrollHandler }: TSmoothScrollHandler) => {
   return (
     <div className={styles["container"]}>
       <nav className={styles["nav"]}>
         <div>
-          <a className={styles["finnet"]}>Finnet</a>
+          <Link
+            href="/"
+            scroll={false}
+            onClick={smoothScrollHandler}
+            className={styles["finnet"]}>
+            Finnet
+          </Link>
         </div>
         <ul>
           <li>

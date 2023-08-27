@@ -1,5 +1,4 @@
-import LayoutPresenter from "@/components/LayoutPresenter";
-
+import LayoutPresenter from "../components/LayoutPresenter";
 const HomePage = () => {
   return (
     <LayoutPresenter>

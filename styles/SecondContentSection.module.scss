@@ -1,0 +1,31 @@
+.sectionGroup {
+  font-family: "Josefin Sans", sans-serif;
+  height: 800px;
+
+  .container {
+    transform: translateY(100px);
+    margin-left: 300px;
+    width: 450px;
+  }
+  .descriptionContainerGroup {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transform: translateY(190px);
+    height: 200px;
+    margin: 10px;
+
+    .desciprtionContainerOne,
+    .desciprtionContainerTwo,
+    .desciprtionContainerThree,
+    .desciprtionContainerFour,
+    .desciprtionContainerFive {
+      width: 350px;
+      height: 250px;
+      border-top: 40px solid royalblue;
+      border-radius: 10px;
+      box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+        rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    }
+  }
+}

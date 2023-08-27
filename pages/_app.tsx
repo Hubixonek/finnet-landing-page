@@ -10,6 +10,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <style jsx global>{`
         html {
           font-family: ${plusJakartaSans.style.fontFamily};
+          scroll-behavior: smooth;
         }
         body {
           margin: 0;

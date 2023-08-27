@@ -8,11 +8,10 @@ const ContentSectionPresenter = () => {
           <strong>Maksymalne wyniki</strong>
         </h2>
         <p>
-          Obcujemy z małpami wymieniając banany na prawdziwą gotówkę Proste,
-          elastyczne i skuteczne rozwiązanie. Lorem ipsum dolor, sit amet
-          consectetur adipisicing elit. Quis debitis eos voluptate cumque
-          deserunt, sit eveniet quo cum officiis sapiente earum distinctio magni
-          est minima autem corporis enim asperiores quibusdam.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis debitis
+          eos voluptate cumque deserunt, sit eveniet quo cum officiis sapiente
+          earum distinctio magni est minima autem corporis enim asperiores
+          quibusdam.
         </p>
         <div className={styles["descriptionOne"]}>
           <h3>Funkcję</h3>
