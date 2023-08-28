@@ -16,12 +16,11 @@
     #0091ff33
   );
   height: 800px;
-
   .finnetPulpit {
     width: 920px;
     margin-left: 800px;
     .finnetImage {
-      transform: translateY(-445px);
+      transform: translateY(-430px);
       box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
         rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
         rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -32,6 +31,11 @@
   margin-left: 300px;
   width: 450px;
 
+  .pContent {
+    font-size: 20px;
+    width: 600px;
+    margin-top: 25px;
+  }
   .descriptionOne,
   .descriptionTwo,
   .descriptionThree {

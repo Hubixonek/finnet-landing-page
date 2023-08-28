@@ -1,0 +1,41 @@
+.sectionGroup {
+  font-family: "Josefin Sans", sans-serif;
+  height: 800px;
+  margin-top: 95px;
+
+  .container {
+    transform: translateY(100px);
+    h2,
+    p {
+      margin-left: 300px;
+    }
+    p {
+      margin-top: 25px;
+      font-size: 20px;
+    }
+    .descriptionContainerGroup {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      transform: translateY(-460px);
+      margin: 500px;
+
+      .oneContainer {
+        height: 350px;
+        width: 350px;
+
+        background-color: rgba(53, 50, 50, 0.041);
+      }
+      .twoContainer {
+        height: 350px;
+        width: 350px;
+        background-color: rgba(53, 50, 50, 0.041);
+      }
+      .threeContainer {
+        height: 350px;
+        width: 350px;
+        background-color: rgba(53, 50, 50, 0.041);
+      }
+    }
+  }
+}
