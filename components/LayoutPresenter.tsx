@@ -6,10 +6,15 @@ import SecondContentSectionPresenter from "./ContentSection/TwoContentSectionPre
 import ThreeContentSectionPresenter from "./ContentSection/ThreeContentSectionPresenter";
 import FourContentSectionPresenter from "./ContentSection/FourContentSectionPresenter";
 import FiveContentSectionPresenter from "./ContentSection/FiveContentSectionPresenter";
-const LayoutPresenter = () => {
+type TSmoothScrollHandler = {
+  smoothScrollHandler: () => void;
+};
+const LayoutPresenter: React.FC<TSmoothScrollHandler> = ({
+  smoothScrollHandler,
+}) => {
   return (
     <div>
-      <NavbarPresenter />
+      <NavbarPresenter smoothScrollHandler={smoothScrollHandler} />
       <main>
         <FirstSectionPresenter />
         <ContentSectionPresenter />

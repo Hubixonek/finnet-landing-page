@@ -73,6 +73,11 @@
 
     .icon {
       font-size: 26px;
+      cursor: pointer;
+
+      &:hover {
+        color: rgba(255, 255, 255, 0.651);
+      }
     }
   }
 }
