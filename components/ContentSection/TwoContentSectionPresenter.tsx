@@ -18,7 +18,7 @@ const TwoSecondContentSectionPresenter = () => {
             <BiMoneyWithdraw className={styles["dollarIcon"]} />
           </div>
           <div className={styles["description"]}>
-            <h3>Jakiś tytuł</h3>
+            <h3>Miejsce na tytuł</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam
               sint aliquam nesciunt molestiae voluptas quo hic quod, fugit
@@ -32,7 +32,7 @@ const TwoSecondContentSectionPresenter = () => {
             <BiLineChart className={styles["chartIcon"]} />
           </div>
           <div className={styles["description"]}>
-            <h3>Jakiś tytuł</h3>
+            <h3>Miejsce na tytuł</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam
               sint aliquam nesciunt molestiae voluptas quo hic quod, fugit
@@ -45,7 +45,7 @@ const TwoSecondContentSectionPresenter = () => {
             <BiNotepad className={styles["noteIcon"]} />
           </div>
           <div className={styles["description"]}>
-            <h3>Jakiś tytuł</h3>
+            <h3>Miejsce na tytuł</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam
               sint aliquam nesciunt molestiae voluptas quo hic quod, fugit
@@ -58,7 +58,7 @@ const TwoSecondContentSectionPresenter = () => {
             <BiBrain className={styles["brainIcon"]} />
           </div>
           <div className={styles["description"]}>
-            <h3>Jakiś tytuł</h3>
+            <h3>Miejsce na tytuł</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam
               sint aliquam nesciunt molestiae voluptas quo hic quod, fugit
@@ -71,7 +71,7 @@ const TwoSecondContentSectionPresenter = () => {
             <RiWifiOffLine className={styles["wifiOfflineIcon"]} />
           </div>
           <div className={styles["description"]}>
-            <h3>Jakiś tytuł</h3>
+            <h3>Miejsce na tytuł</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam
               sint aliquam nesciunt molestiae voluptas quo hic quod, fugit
@@ -81,7 +81,10 @@ const TwoSecondContentSectionPresenter = () => {
         </div>
       </div>
       <div className={styles["lastDescription"]}>
-        <p>Miejsce na przykładowy tekst do tej sekcji! Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        <p>
+          Miejsce na przykładowy tekst do tej sekcji! Lorem ipsum dolor sit amet
+          consectetur adipisicing elit.{" "}
+        </p>
       </div>
     </div>
   );

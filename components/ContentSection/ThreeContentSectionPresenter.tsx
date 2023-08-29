@@ -15,7 +15,7 @@ const ThreeContentSectionPresenter = () => {
         rel="noopener"
         target="_blank"
         className={styles["btnCustom"]}>
-        Jakies przekierowanie?
+        Miejsce na przekierowanie
       </Link>
       <div className={styles["container"]}>
         <div className={styles["imageContainer"]}>

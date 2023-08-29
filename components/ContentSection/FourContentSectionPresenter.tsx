@@ -1,5 +1,6 @@
 import styles from "../../styles/FourContentSectionPresenter.module.scss";
 import Image from "next/image";
+import Link from "next/link";
 const FourContentSectionPresenter = () => {
   return (
     <div className={styles["sectionGroup"]}>
@@ -12,33 +13,81 @@ const FourContentSectionPresenter = () => {
           eos voluptate cumque deserunt
         </p>
         <div className={styles["descriptionContainerGroup"]}>
-          <div className={styles["oneContainer"]}>
-            <Image
-              className={styles["rotateImage"]}
-              src="/images/settings.png"
-              alt="Rates operations"
-              width={100}
-              height={100}
-              layout="responsive"></Image>
+          <div className={styles["container"]}>
+            <div className={styles["containerImage"]}>
+              <Image
+                className={styles["settingsImage"]}
+                src="/images/settings.png"
+                alt="Rates operations"
+                width={100}
+                height={100}
+                layout="responsive"></Image>
+            </div>
+            <h3>Automatyzacja</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+              non repudiandae placeat optio fuga recusandae
+            </p>
+            <div className={styles["btnContainer"]}>
+              <Link
+                href=""
+                rel="noopener"
+                target="_blank"
+                className={styles["btnCustom"]}>
+                Miejsce na przekierowanie
+              </Link>
+            </div>
           </div>
-          <div className={styles["twoContainer"]}>
-            <Image
-              className={styles["rotateImage"]}
-              src="/images/search.png"
-              alt="Rates operations"
-              width={100}
-              height={100}
-              layout="responsive"></Image>
+          <div className={styles["container"]}>
+            <div className={styles["containerImage"]}>
+              <Image
+                className={styles["searchImage"]}
+                src="/images/search.png"
+                alt="Rates operations"
+                width={100}
+                height={100}
+                layout="responsive"></Image>
+            </div>
+            <h3>Finnet Forum</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+              non repudiandae placeat optio fuga recusandae
+            </p>
+            <div className={styles["btnContainer"]}>
+              <Link
+                href=""
+                rel="noopener"
+                target="_blank"
+                className={styles["btnCustom"]}>
+                Miejsce na przekierowanie
+              </Link>
+            </div>
           </div>
-          <div className={styles["threeContainer"]}>
+          <div className={styles["container"]}>
             {" "}
-            <Image
-              className={styles["rotateImage"]}
-              src="/images/wallet.png"
-              alt="Rates operations"
-              width={100}
-              height={100}
-              layout="responsive"></Image>
+            <div className={styles["containerImage"]}>
+              <Image
+                className={styles["walletImage"]}
+                src="/images/wallet.png"
+                alt="Rates operations"
+                width={100}
+                height={100}
+                layout="responsive"></Image>
+            </div>
+            <h3>Finnetyzacja </h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+              non repudiandae placeat optio fuga recusandae
+            </p>
+            <div className={styles["btnContainer"]}>
+              <Link
+                href=""
+                rel="noopener"
+                target="_blank"
+                className={styles["btnCustom"]}>
+                Miejsce na przekierowanie
+              </Link>
+            </div>
           </div>
         </div>
       </div>

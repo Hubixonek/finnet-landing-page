@@ -17,24 +17,43 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      transform: translateY(-460px);
-      margin: 500px;
+      transform: translateY(-290px);
+      margin: 350px;
 
-      .oneContainer {
-        height: 350px;
-        width: 350px;
+      h3 {
+        margin-top: 20px;
+        margin-left: 15px;
+      }
+      p {
+        transform: translateX(-280px);
+        width: 300px;
+        margin-bottom: 35px;
+      }
 
-        background-color: rgba(53, 50, 50, 0.041);
+      .btnCustom {
+        margin-left: 19px;
+        padding: 15px;
+        border: 0.5px solid royalblue;
+        border-radius: 5px;
+        width: 250px;
+        color: black;
+        text-decoration: none;
+        &:hover {
+          background-color: rgba(65, 105, 225, 0.219);
+        }
       }
-      .twoContainer {
-        height: 350px;
+
+      .container {
+        height: 430px;
         width: 350px;
-        background-color: rgba(53, 50, 50, 0.041);
-      }
-      .threeContainer {
-        height: 350px;
-        width: 350px;
-        background-color: rgba(53, 50, 50, 0.041);
+        background-color: rgba(53, 50, 50, 0.027);
+        transform: translateY(-20px);
+        .containerImage {
+          height: 95px;
+          width: 95px;
+          margin-left: 25px;
+          margin-top: 25px;
+        }
       }
     }
   }
