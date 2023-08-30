@@ -1,16 +1,16 @@
-import styles from "../../styles/ContentSection.module.scss";
+import styles from "../../styles/OneContentSection.module.scss";
 import Image from "next/image";
 const OneContentSectionPresenter = () => {
   return (
     <div className={styles["sectionGroup"]}>
+      <h2>
+        <strong>Maksymalne wyniki</strong>
+      </h2>
+      <p className={styles["pContent"]}>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis debitis
+        eos voluptate cumque deserunt
+      </p>
       <div className={styles["container"]}>
-        <h2>
-          <strong>Maksymalne wyniki</strong>
-        </h2>
-        <p className={styles["pContent"]}>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis debitis
-          eos voluptate cumque deserunt
-        </p>
         <div className={styles["descriptionOne"]}>
           <h3>Funkcję</h3>
           <p>

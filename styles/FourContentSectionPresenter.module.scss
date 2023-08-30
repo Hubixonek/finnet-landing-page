@@ -2,7 +2,6 @@
   font-family: "Josefin Sans", sans-serif;
   height: 800px;
   margin-top: 95px;
-
   .container {
     transform: translateY(100px);
     h2,
@@ -54,6 +53,106 @@
           margin-left: 25px;
           margin-top: 25px;
         }
+      }
+    }
+  }
+}
+@media (max-width: 1802px) {
+  .sectionGroup {
+    .container {
+      .descriptionContainerGroup {
+        margin: 330px;
+        transform: translateY(-275px);
+      }
+    }
+  }
+}
+@media (max-width: 1744px) {
+  .sectionGroup {
+    .container {
+      .descriptionContainerGroup {
+        margin: 300px;
+        transform: translateY(-250px);
+      }
+    }
+  }
+}
+@media (max-width: 1698px) {
+  .sectionGroup {
+    .container {
+      .descriptionContainerGroup {
+        margin: 280px;
+        transform: translateY(-230px);
+      }
+    }
+  }
+}
+@media (max-width: 1650px) {
+  .sectionGroup {
+    .container {
+      .descriptionContainerGroup {
+        margin: 240px;
+        transform: translateY(-180px);
+      }
+    }
+  }
+}
+@media (max-width: 1558px) {
+  .sectionGroup {
+    .container {
+      .descriptionContainerGroup {
+        margin: 200px;
+        transform: translateY(-120px);
+      }
+    }
+  }
+}
+@media (max-width: 1480px) {
+  .sectionGroup {
+    .container {
+      .descriptionContainerGroup {
+        margin: 170px;
+        transform: translateY(-90px);
+      }
+    }
+  }
+}
+@media (max-width: 1418px) {
+  .sectionGroup {
+    .container {
+      .descriptionContainerGroup {
+        margin: 140px;
+        transform: translateY(-60px);
+      }
+    }
+  }
+}
+@media (max-width: 1354px) {
+  .sectionGroup {
+    .container {
+      .descriptionContainerGroup {
+        margin: 110px;
+        transform: translateY(-40px);
+      }
+    }
+  }
+}
+@media (max-width: 1308px) {
+  .sectionGroup {
+    .container {
+      .descriptionContainerGroup {
+        margin: 100px;
+        transform: translateY(-0px);
+      }
+    }
+  }
+}
+@media (max-width: 1262px) {
+  .sectionGroup {
+    .container {
+      .descriptionContainerGroup {
+        margin: 60px;
+        transform: translateY(20px);
       }
     }
   }
