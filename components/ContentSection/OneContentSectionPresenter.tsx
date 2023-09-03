@@ -35,15 +35,6 @@ const OneContentSectionPresenter = () => {
           </p>
         </div>
       </div>
-      <div className={styles["finnetPulpit"]}>
-        <Image
-          className={styles["finnetImage"]}
-          src="/images/Finnet-Pulpit.png"
-          alt="Rates operations"
-          width={1000}
-          height={1000}
-          layout="responsive"></Image>
-      </div>
     </div>
   );
 };

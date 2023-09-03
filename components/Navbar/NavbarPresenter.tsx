@@ -1,10 +1,10 @@
 import styles from "../../styles/Navbar.module.scss";
 import Link from "next/link";
-
-const NavbarPresenter = () => {
+import { RxHamburgerMenu } from "react-icons/rx";
+const NavbarPresenter = ({ toggleHandler, setShowNav, showNav }) => {
   return (
     <div className={styles["container"]}>
-      <nav className={styles["nav"]}>
+      <nav className={showNav ? styles["showNav"] : styles["nav"]}>
         <div>
           <Link href="/" scroll={false} className={styles["finnet"]}>
             Finnet
@@ -22,6 +22,12 @@ const NavbarPresenter = () => {
           <Link href="https://finnet.bieda.it" rel="noopener" target="_blank">
             Przejdź do naszej aplikacji
           </Link>
+        </div>
+        <div className={styles["hamburger"]}>
+          <RxHamburgerMenu
+            className={styles["hamburgerIcon"]}
+            onClick={() => toggleHandler()}
+          />
         </div>
       </nav>
     </div>

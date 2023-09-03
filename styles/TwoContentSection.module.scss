@@ -4,8 +4,8 @@
 
   .container {
     transform: translateY(100px);
-    margin-left: 300px;
-    width: 450px;
+    margin-left: 100px;
+    max-width: 100%;
   }
   .descriptionContainerGroup {
     display: flex;
@@ -129,7 +129,6 @@
     margin-top: 260px;
     margin-left: 300px;
 
-    width: 900px;
     p {
       font-size: 22px;
     }

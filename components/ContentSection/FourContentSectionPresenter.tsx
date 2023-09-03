@@ -5,10 +5,10 @@ const FourContentSectionPresenter = () => {
   return (
     <div className={styles["sectionGroup"]}>
       <div className={styles["container"]}>
-        <h2>
+        <h2 className={styles["h2"]}>
           <strong>Zyskaj więcej z Finnet</strong>
         </h2>
-        <p>
+        <p className={styles["p"]}>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis debitis
           eos voluptate cumque deserunt
         </p>
