@@ -1,4 +1,4 @@
-import NavbarPresenter from "../components/Navbar/NavbarPresenter";
+import NavbarContainer from "../components/Navbar/NavbarContainer";
 import FooterPresenter from "../components/Footer/FooterPresenter";
 import ContentSectionPresenter from "../components/ContentSection/OneContentSectionPresenter";
 import FirstSectionPresenter from "../components/ContentSection/FirstSectionPresenter";
@@ -10,7 +10,7 @@ import FiveContentSectionPresenter from "../components/ContentSection/FiveConten
 const HomePage = () => {
   return (
     <div>
-      <NavbarPresenter />
+      <NavbarContainer />
       <main>
         <FirstSectionPresenter />
         <ContentSectionPresenter />

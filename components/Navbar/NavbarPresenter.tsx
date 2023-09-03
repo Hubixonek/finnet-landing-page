@@ -1,10 +1,21 @@
 import styles from "../../styles/Navbar.module.scss";
 import Link from "next/link";
 import { RxHamburgerMenu } from "react-icons/rx";
-const NavbarPresenter = ({ toggleHandler, setShowNav, showNav }) => {
+import { IoMdClose } from "react-icons/io";
+type TNavbarPresenterProps = {
+  toggleHandler: () => void;
+  setShowNav: (showNav: boolean) => void;
+  showNav: boolean;
+};
+
+const NavbarPresenter = ({
+  toggleHandler,
+  setShowNav,
+  showNav,
+}: TNavbarPresenterProps) => {
   return (
     <div className={styles["container"]}>
-      <nav className={showNav ? styles["showNav"] : styles["nav"]}>
+      <nav className={styles["nav"]}>
         <div>
           <Link href="/" scroll={false} className={styles["finnet"]}>
             Finnet
@@ -24,12 +35,41 @@ const NavbarPresenter = ({ toggleHandler, setShowNav, showNav }) => {
           </Link>
         </div>
         <div className={styles["hamburger"]}>
-          <RxHamburgerMenu
-            className={styles["hamburgerIcon"]}
-            onClick={() => toggleHandler()}
-          />
+          {showNav ? (
+            <RxHamburgerMenu
+              className={styles["hamburgerIcon"]}
+              onClick={() => toggleHandler()}
+            />
+          ) : (
+            <IoMdClose
+              className={styles["hamburgerIcon"]}
+              onClick={() => toggleHandler()}
+            />
+          )}
         </div>
       </nav>
+      <div
+        className={`${styles["navSlide"]} ${
+          !showNav ? styles["navSlideOpen"] : ""
+        }`}>
+        <ul>
+          <li>
+            <a>O nas</a>
+          </li>
+          <li>
+            <a>Funkcje</a>
+          </li>
+          <li>
+            <Link
+              href="https://finnet.bieda.it"
+              rel="noopener"
+              target="_blank"
+              className={styles["linkMobileStyle"]}>
+              Przejdź do naszej aplikacji
+            </Link>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };
