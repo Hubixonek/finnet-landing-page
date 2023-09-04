@@ -1,6 +1,6 @@
 .sectionGroup {
   font-family: "Josefin Sans", sans-serif;
-  height: 700px;
+  height: 1650px;
 
   .container {
     transform: translateY(100px);
@@ -9,38 +9,35 @@
   }
   .descriptionContainerGroup {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    transform: translateY(190px);
-    height: 200px;
-    margin: 5px;
+    transform: translateY(120px);
 
     .desciprtionContainerOne,
     .desciprtionContainerTwo,
     .desciprtionContainerThree,
     .desciprtionContainerFour,
     .desciprtionContainerFive {
-      width: 350px;
+      width: 50%;
       height: 250px;
       border-top: 40px solid royalblue;
       border-radius: 10px;
       transition: all 0.2s ease-in-out;
-
-      &:hover {
-        height: 300px;
-      }
+      margin-top: 25px;
     }
     .desciprtionContainerOne {
       box-shadow: rgba(5, 76, 168, 0.747) 6px 2px 16px 0px,
         rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 
       &:hover {
-        height: 300px;
         box-shadow: rgb(5, 76, 168) 6px 2px 16px 0px,
           rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
       }
     }
     .desciprtionContainerTwo {
+      height: 300px;
+
       border-top: 40px solid rgba(0, 128, 0, 0.685);
       box-shadow: rgba(32, 168, 5, 0.747) 6px 2px 16px 0px,
         rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
@@ -135,7 +132,7 @@
   }
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 370px) {
   .sectionGroup {
     font-family: "Josefin Sans", sans-serif;
     height: 1600px;
@@ -157,10 +154,32 @@
         border-radius: 10px;
         transition: all 0.2s ease-in-out;
         margin-top: 25px;
-
-        &:hover {
-          height: 300px;
-        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 990px) {
+  .sectionGroup {
+    font-family: "Josefin Sans", sans-serif;
+    height: 1720px;
+    .container {
+      max-width: 100%;
+    }
+    .descriptionContainerGroup {
+      display: flex;
+      flex-direction: column;
+      transform: translateY(90px);
+      .desciprtionContainerOne,
+      .desciprtionContainerTwo,
+      .desciprtionContainerThree,
+      .desciprtionContainerFour,
+      .desciprtionContainerFive {
+        width: 80%;
+        height: 275px;
+        border-top: 40px solid royalblue;
+        border-radius: 10px;
+        transition: all 0.2s ease-in-out;
+        margin-top: 25px;
       }
       .desciprtionContainerOne {
         box-shadow: rgba(5, 76, 168, 0.747) 6px 2px 16px 0px,
