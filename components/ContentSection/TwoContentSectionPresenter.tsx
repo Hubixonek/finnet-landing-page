@@ -80,12 +80,6 @@ const TwoSecondContentSectionPresenter = () => {
           </div>
         </div>
       </div>
-      <div className={styles["lastDescription"]}>
-        <p>
-          Miejsce na przykładowy tekst do tej sekcji! Lorem ipsum dolor sit amet
-          consectetur adipisicing elit.{" "}
-        </p>
-      </div>
     </div>
   );
 };

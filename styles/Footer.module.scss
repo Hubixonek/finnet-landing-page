@@ -106,14 +106,14 @@
           text-decoration: underline;
         }
       }
-  
+
       .footerDescription {
         padding: 15px;
         margin-top: 30px;
         color: white;
         text-decoration: none;
         width: 250px;
-  
+
         &:hover {
           height: 92px;
           background-color: rgba(248, 248, 248, 0.205);
@@ -142,7 +142,7 @@
         list-style: none;
         gap: 20px;
         font-size: 12px;
-  
+
         li:hover:not(:last-child) {
           cursor: pointer;
           text-decoration: underline;
@@ -154,11 +154,11 @@
       transform: translateY(-50px);
       margin-left: 72%;
       gap: 30px;
-  
+
       .icon {
         font-size: 26px;
         cursor: pointer;
-  
+
         &:hover {
           color: rgba(255, 255, 255, 0.651);
         }
@@ -191,14 +191,14 @@
           text-decoration: underline;
         }
       }
-  
+
       .footerDescription {
         padding: 15px;
         margin-top: 30px;
         color: white;
         text-decoration: none;
         width: 250px;
-  
+
         &:hover {
           height: 92px;
           background-color: rgba(248, 248, 248, 0.205);
@@ -227,7 +227,7 @@
         list-style: none;
         gap: 20px;
         font-size: 12px;
-  
+
         li:hover:not(:last-child) {
           cursor: pointer;
           text-decoration: underline;
@@ -239,11 +239,275 @@
       transform: translateY(-50px);
       margin-left: 72%;
       gap: 30px;
-  
+
       .icon {
         font-size: 26px;
         cursor: pointer;
-  
+
+        &:hover {
+          color: rgba(255, 255, 255, 0.651);
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 990px) {
+  .container {
+    font-family: "Josefin Sans", sans-serif;
+    height: 670px;
+
+    background-color: rgb(23, 43, 77);
+    color: white;
+    .elements {
+      flex-direction: column;
+      justify-content: center;
+      .titleAndLogin {
+        padding: 15px;
+        margin-top: 0px;
+        color: white;
+        text-decoration: none;
+      }
+      .login {
+        align-items: flex-end;
+        margin-left: auto;
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      .footerDescription {
+        padding: 15px;
+        margin-top: 0px;
+        color: white;
+        text-decoration: none;
+        width: 250px;
+
+        &:hover {
+          height: 92px;
+          background-color: rgba(248, 248, 248, 0.205);
+        }
+        h3 {
+          font-size: 16px;
+        }
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+    .sectionLine {
+      width: 90%;
+      margin: 0 auto;
+      height: 1px;
+      background-color: rgba(255, 255, 255, 0.199);
+      transform: translateY(-10px);
+    }
+    .textSection {
+      margin-top: 15px;
+      ul {
+        display: flex;
+        flex-direction: column;
+        margin-right: auto;
+        list-style: none;
+        margin-left: 100px;
+        align-items: flex-start;
+        gap: 20px;
+        font-size: 12px;
+
+        li:hover:not(:last-child) {
+          cursor: pointer;
+          text-decoration: underline;
+        }
+      }
+    }
+    .mediaIconSection {
+      display: flex;
+      transform: translateY(-50px);
+      margin-left: 72%;
+      gap: 30px;
+
+      .icon {
+        font-size: 26px;
+        cursor: pointer;
+
+        &:hover {
+          color: rgba(255, 255, 255, 0.651);
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 704px) {
+  .container {
+    font-family: "Josefin Sans", sans-serif;
+    height: 670px;
+
+    background-color: rgb(23, 43, 77);
+    color: white;
+    .elements {
+      flex-direction: column;
+      justify-content: center;
+      .titleAndLogin {
+        padding: 15px;
+        margin-top: 0px;
+        color: white;
+        text-decoration: none;
+      }
+      .login {
+        align-items: flex-end;
+        margin-left: auto;
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      .footerDescription {
+        padding: 15px;
+        margin-top: 0px;
+        color: white;
+        text-decoration: none;
+        width: 250px;
+
+        &:hover {
+          height: 92px;
+          background-color: rgba(248, 248, 248, 0.205);
+        }
+        h3 {
+          font-size: 16px;
+        }
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+    .sectionLine {
+      width: 90%;
+      margin: 0 auto;
+      height: 1px;
+      background-color: rgba(255, 255, 255, 0.199);
+      transform: translateY(-10px);
+    }
+    .textSection {
+      margin-top: 15px;
+      ul {
+        display: flex;
+        flex-direction: column;
+        margin-right: auto;
+        list-style: none;
+        margin-left: 100px;
+        align-items: flex-start;
+        gap: 20px;
+        font-size: 12px;
+
+        li:hover:not(:last-child) {
+          cursor: pointer;
+          text-decoration: underline;
+        }
+      }
+    }
+    .mediaIconSection {
+      display: flex;
+      transform: translateY(-50px);
+      margin-left: 65%;
+      gap: 30px;
+
+      .icon {
+        font-size: 26px;
+        cursor: pointer;
+
+        &:hover {
+          color: rgba(255, 255, 255, 0.651);
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 704px) {
+  .container {
+    font-family: "Josefin Sans", sans-serif;
+    height: 670px;
+
+    background-color: rgb(23, 43, 77);
+    color: white;
+    .elements {
+      flex-direction: column;
+      justify-content: center;
+      .titleAndLogin {
+        padding: 15px;
+        margin-top: 0px;
+        color: white;
+        text-decoration: none;
+      }
+      .login {
+        align-items: flex-end;
+        margin-left: auto;
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      .footerDescription {
+        padding: 15px;
+        margin-top: 0px;
+        color: white;
+        text-decoration: none;
+        width: 250px;
+
+        &:hover {
+          height: 92px;
+          background-color: rgba(248, 248, 248, 0.205);
+        }
+        h3 {
+          font-size: 16px;
+        }
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+    .sectionLine {
+      width: 90%;
+      margin: 0 auto;
+      height: 1px;
+      background-color: rgba(255, 255, 255, 0.199);
+      transform: translateY(-10px);
+    }
+    .textSection {
+      margin-top: 15px;
+      ul {
+        display: flex;
+        flex-direction: column;
+        margin-right: auto;
+        list-style: none;
+        margin-left: 100px;
+        align-items: flex-start;
+        gap: 20px;
+        font-size: 12px;
+
+        li:hover:not(:last-child) {
+          cursor: pointer;
+          text-decoration: underline;
+        }
+      }
+    }
+    .mediaIconSection {
+      display: flex;
+      transform: translateY(-50px);
+      margin-left: 45%;
+      gap: 30px;
+
+      .icon {
+        font-size: 26px;
+        cursor: pointer;
+
         &:hover {
           color: rgba(255, 255, 255, 0.651);
         }

@@ -13,7 +13,7 @@
     justify-content: space-between;
     transform: translateY(190px);
     height: 200px;
-    margin: 10px;
+    margin: 5px;
 
     .desciprtionContainerOne,
     .desciprtionContainerTwo,
@@ -135,14 +135,126 @@
   }
 }
 
-@media screen and (max-width: 974px) {
+@media screen and (max-width: 990px) {
   .sectionGroup {
-    .lastDescription {
-      margin-top: 260px;
-      margin-left:20px;
+    font-family: "Josefin Sans", sans-serif;
+    height: 1600px;
+    .container {
+      max-width: 100%;
+    }
+    .descriptionContainerGroup {
+      display: flex;
+      flex-direction: column;
+      transform: translateY(90px);
+      .desciprtionContainerOne,
+      .desciprtionContainerTwo,
+      .desciprtionContainerThree,
+      .desciprtionContainerFour,
+      .desciprtionContainerFive {
+        width: 80%;
+        height: 250px;
+        border-top: 40px solid royalblue;
+        border-radius: 10px;
+        transition: all 0.2s ease-in-out;
+        margin-top: 25px;
 
-      p {
-        font-size: 2px;
+        &:hover {
+          height: 300px;
+        }
+      }
+      .desciprtionContainerOne {
+        box-shadow: rgba(5, 76, 168, 0.747) 6px 2px 16px 0px,
+          rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+        &:hover {
+          height: 300px;
+          box-shadow: rgb(5, 76, 168) 6px 2px 16px 0px,
+            rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+        }
+      }
+      .desciprtionContainerTwo {
+        border-top: 40px solid rgba(0, 128, 0, 0.685);
+        box-shadow: rgba(32, 168, 5, 0.747) 6px 2px 16px 0px,
+          rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+        &:hover {
+          box-shadow: rgba(32, 168, 5, 0.979) 6px 2px 16px 0px,
+            rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+        }
+      }
+
+      .desciprtionContainerThree {
+        border-top: 40px solid rgba(255, 0, 0, 0.719);
+        box-shadow: rgba(179, 7, 7, 0.582) 6px 2px 16px 0px,
+          rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+        &:hover {
+          box-shadow: rgb(179, 7, 7) 6px 2px 16px 0px,
+            rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+        }
+      }
+
+      .desciprtionContainerFour {
+        border-top: 40px solid rgba(255, 217, 0, 0.781);
+        box-shadow: rgba(214, 193, 5, 0.575) 6px 2px 16px 0px,
+          rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+        &:hover {
+          box-shadow: rgb(214, 193, 5) 6px 2px 16px 0px,
+            rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+        }
+      }
+
+      .desciprtionContainerFive {
+        border-top: 40px solid rgba(0, 0, 0, 0.808);
+
+        box-shadow: rgba(2, 2, 2, 0.534) 6px 2px 16px 0px,
+          rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+        &:hover {
+          box-shadow: rgb(2, 2, 2) 6px 2px 16px 0px,
+            rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+        }
+      }
+      .dollarIconContainer,
+      .chartIconContainer,
+      .noteIconContainer,
+      .brainIconContainer,
+      .wifiOfflineIconContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        width: 60px;
+        height: 60px;
+        margin-left: 14px;
+        transform: translateY(-20px);
+        border-radius: 25px;
+
+        .dollarIcon {
+          color: rgba(5, 76, 168, 0.747);
+          font-size: 48px;
+        }
+        .chartIcon {
+          color: rgba(24, 168, 5, 0.747);
+          font-size: 48px;
+        }
+        .noteIcon {
+          color: rgba(255, 0, 0, 0.719);
+          font-size: 48px;
+        }
+        .brainIcon {
+          color: rgba(255, 217, 0, 0.781);
+          font-size: 48px;
+        }
+        .wifiOfflineIcon {
+          color: rgba(0, 0, 0, 0.808);
+          font-size: 48px;
+        }
+      }
+      .description {
+        margin-left: 24px;
+        transform: translateY(-15px);
       }
     }
   }

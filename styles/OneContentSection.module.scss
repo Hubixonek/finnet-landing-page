@@ -18,9 +18,12 @@
   height: 800px;
 
   h2 {
+    max-width: 100%;
+
     margin-left: 100px;
   }
   .pContent {
+    max-width: 100%;
     margin-left: 100px;
   }
 }
@@ -86,6 +89,114 @@
     .descriptionTwo,
     .descriptionThree {
       height: 130px;
+      box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+        rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+      padding: 15px;
+      border-left: 6px solid royalblue;
+      margin-top: 5px;
+    }
+  }
+}
+@media screen and (max-width: 640px) {
+  .sectionGroup {
+    font-family: "Josefin Sans", sans-serif;
+    background-image: linear-gradient(
+      to bottom,
+      #ffffff,
+      #ffffff,
+      #ffffff,
+      #ffffff,
+      #ffffff,
+      #ffffff,
+      #ffffff,
+      #ffffff,
+      #c3c9fe00,
+      #a0b4fe46,
+      #72a1ff5e,
+      #0091ff33
+    );
+    height: 800px;
+    margin-top: 350px;
+
+    h2 {
+      margin-left: 100px;
+    }
+    .pContent {
+      margin-left: 100px;
+    }
+  }
+  .container {
+    margin-left: 100px;
+    max-width: 100%;
+
+    .pContent {
+      font-size: 20px;
+      width: 600px;
+      margin-top: 25px;
+    }
+    .descriptionOne,
+    .descriptionTwo,
+    .descriptionThree {
+      height: 130px;
+      box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+        rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+      padding: 15px;
+      border-left: 6px solid royalblue;
+      margin-top: 5px;
+    }
+  }
+}
+@media screen and (max-width: 554px) {
+  .sectionGroup {
+    h2 {
+      margin-left: 15px;
+    }
+    .pContent {
+      margin-left: 15px;
+    }
+  }
+  .container {
+    margin-left: 15px;
+    max-width: 100%;
+
+    .pContent {
+      font-size: 20px;
+      width: 600px;
+      margin-top: 25px;
+    }
+    .descriptionOne,
+    .descriptionTwo,
+    .descriptionThree {
+      height: 130px;
+      box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+        rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+      padding: 15px;
+      border-left: 6px solid royalblue;
+      margin-top: 5px;
+    }
+  }
+}
+@media screen and (max-width: 470px) {
+  .sectionGroup {
+    h2 {
+      margin-left: 15px;
+    }
+    .pContent {
+      margin-left: 15px;
+    }
+  }
+  .container {
+    margin-left: 15px;
+    max-width: 90%;
+    .pContent {
+      font-size: 20px;
+      width: 600px;
+      margin-top: 25px;
+    }
+    .descriptionOne,
+    .descriptionTwo,
+    .descriptionThree {
+      height: 170px;
       box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
         rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
       padding: 15px;

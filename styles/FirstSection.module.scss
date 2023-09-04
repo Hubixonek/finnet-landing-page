@@ -10,7 +10,7 @@
     url("../public/wave-background.svg");
   background-repeat: no-repeat;
   padding: 20px;
-  max-width: 100%;
+
   .styledColumn {
     max-width: 40%;
     margin-left: 100px;
@@ -236,6 +236,14 @@
   }
 }
 @media screen and (max-width: 1170px) {
+  .section {
+    .styledColumn {
+      max-width: 34%;
+      .uiTextBlock {
+        max-width: 100%;
+      }
+    }
+  }
   .responsive {
     margin-left: 650px;
     max-width: 410px;
@@ -260,6 +268,7 @@
 @media screen and (max-width: 1020px) {
   .section {
     .styledColumn {
+      max-width: 100%;
       .uiTextBlock {
         transform: translateY(-40px);
         align-items: center;
@@ -307,6 +316,14 @@
   }
 }
 @media screen and (max-width: 968px) {
+  .section {
+    .styledColumn {
+      max-width: 100%;
+      .uiTextBlock {
+        max-width: 100%;
+      }
+    }
+  }
   .responsive {
     margin-top: 440px;
     margin-left: 240px;
@@ -316,6 +333,165 @@
     height: 450px;
     margin-left: 35px;
     max-width: 220px;
-    transform: translateY(-800px);
+    transform: translateY(-770px);
+  }
+}
+@media screen and (max-width: 878px) {
+  .responsive {
+    margin-top: 440px;
+    margin-left: 240px;
+    max-width: 570px;
+  }
+  .responsiveSecond {
+    height: 450px;
+    margin-left: 35px;
+    max-width: 220px;
+    transform: translateY(-750px);
+  }
+}
+@media screen and (max-width: 862px) {
+  .responsive {
+    margin-top: 440px;
+    margin-left: 240px;
+    max-width: 570px;
+  }
+  .responsiveSecond {
+    height: 450px;
+    margin-left: 35px;
+    max-width: 220px;
+    transform: translateY(-750px);
+  }
+}
+@media screen and (max-width: 830px) {
+  .responsive {
+    margin-top: 440px;
+    margin-left: 200px;
+  }
+  .responsiveSecond {
+    margin-left: 5px;
+  }
+}
+@media screen and (max-width: 790px) {
+  .responsive {
+    margin-top: 440px;
+    margin-left: 240px;
+    max-width: 520px;
+  }
+  .responsiveSecond {
+    height: 410px;
+    margin-left: 35px;
+    max-width: 200px;
+    transform: translateY(-730px);
+  }
+}
+@media screen and (max-width: 780px) {
+  .responsive {
+    margin-left: 220px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .responsive {
+    margin-left: 180px;
+  }
+  .responsiveSecond {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .responsive {
+    margin-left: 165px;
+  }
+  .responsiveSecond {
+    height: 390px;
+    max-width: 180px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .responsive {
+    max-width: 510px;
+  }
+}
+@media screen and (max-width: 694px) {
+  .responsive {
+    max-width: 500px;
+  }
+  .responsiveSecond {
+    transform: translateY(-720px);
+  }
+}
+@media screen and (max-width: 682px) {
+  .responsive {
+    max-width: 450px;
+  }
+  .responsiveSecond {
+    transform: translateY(-700px);
+  }
+}
+@media screen and (max-width: 640px) {
+  .responsive {
+    max-width: 450px;
+  }
+  .responsiveSecond {
+    transform: translateY(-700px);
+  }
+}
+@media screen and (max-width: 636px) {
+  .responsive {
+    max-width: 420px;
+  }
+  .responsiveSecond {
+    transform: translateY(-690px);
+  }
+}
+@media screen and (max-width: 636px) {
+  .responsive {
+    max-width: 420px;
+  }
+  .responsiveSecond {
+    transform: translateY(-680px);
+  }
+}
+@media screen and (max-width: 636px) {
+  .responsive {
+    margin-left: 145px;
+  }
+  .responsiveSecond {
+    height: 360px;
+    max-width: 150px;
+    transform: translateY(-680px);
+  }
+}
+@media screen and (max-width: 584px) {
+  .section {
+    .styledColumn {
+      margin-left: 30px;
+    }
+  }
+  .responsive {
+    margin-left: 135px;
+  }
+  .responsiveSecond {
+    max-width: 150px;
+    transform: translateY(-680px);
+  }
+}
+@media screen and (max-width: 574px) {
+  .responsive {
+    max-width: 380px;
+    margin-left: 135px;
+  }
+  .responsiveSecond {
+    max-width: 150px;
+    transform: translateY(-660px);
+  }
+}
+@media screen and (max-width: 534px) {
+  .responsive {
+    max-width: 580px;
+    margin-left: 5px;
+    transform: translateY(-440px);
+  }
+  .responsiveSecond {
+    display: none;
   }
 }

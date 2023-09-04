@@ -1,7 +1,6 @@
 import styles from "../../styles/ThreeContentSectionPresenter.module.scss";
 import Link from "next/link";
-import Image from "next/image";
-import { BiSolidWallet } from "react-icons/bi";
+
 const ThreeContentSectionPresenter = () => {
   return (
     <div className={styles["section"]}>
