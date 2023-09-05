@@ -35,6 +35,10 @@ const OneContentSectionPresenter = () => {
           </p>
         </div>
       </div>
+      <img
+        src="/images/Finnet-Pulpit.png"
+        alt="FinnetPulpitImg"
+        className={styles["finnetPulpitImg"]}></img>
     </div>
   );
 };

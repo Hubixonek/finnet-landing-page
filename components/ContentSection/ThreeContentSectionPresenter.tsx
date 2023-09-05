@@ -1,6 +1,6 @@
 import styles from "../../styles/ThreeContentSectionPresenter.module.scss";
 import Link from "next/link";
-
+import { FaWallet } from "react-icons/fa";
 const ThreeContentSectionPresenter = () => {
   return (
     <div className={styles["section"]}>
@@ -17,7 +17,10 @@ const ThreeContentSectionPresenter = () => {
         Miejsce na przekierowanie
       </Link>
       <div className={styles["container"]}>
-        <div className={styles["description"]}></div>
+        <img
+          src="/images/WalletComposition.png"
+          alt="FinnetPulpitImg"
+          className={styles["finnetWalletCompositionImg"]}></img>
       </div>
     </div>
   );

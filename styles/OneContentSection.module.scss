@@ -26,6 +26,15 @@
     max-width: 100%;
     margin-left: 100px;
   }
+  .finnetPulpitImg {
+    margin-left: 800px;
+    transform: translateY(-410px);
+    max-width: 50%;
+    height: auto;
+    -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  }
 }
 .container {
   margin-left: 100px;
@@ -48,6 +57,33 @@
   }
 }
 
+@media screen and (max-width: 1596px) {
+  .sectionGroup {
+    .finnetPulpitImg {
+      margin-left: 700px;
+    }
+  }
+}
+@media screen and (max-width: 1400px) {
+  .sectionGroup {
+    .finnetPulpitImg {
+      margin-left: 600px;
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+  .sectionGroup {
+    height: 1000px;
+    .finnetPulpitImg {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      transform: translateY(50px);
+      max-width: 70%;
+    }
+  }
+}
 @media screen and (max-width: 1020px) {
   .sectionGroup {
     font-family: "Josefin Sans", sans-serif;
@@ -66,7 +102,6 @@
       #72a1ff5e,
       #0091ff33
     );
-    height: 800px;
     margin-top: 350px;
 
     h2 {
@@ -178,6 +213,7 @@
 }
 @media screen and (max-width: 470px) {
   .sectionGroup {
+    height: 900px;
     h2 {
       margin-left: 15px;
     }

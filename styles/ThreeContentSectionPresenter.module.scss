@@ -1,6 +1,6 @@
 .section {
   font-family: "Josefin Sans", sans-serif;
-  height: 700px;
+  height: 800px;
   max-width: 100%;
   background-image: linear-gradient(
     to top,
@@ -37,5 +37,65 @@
     text-decoration: none;
     font-size: 18px;
     border-radius: 10px;
+  }
+  .container {
+    display: flex;
+    margin: 0 auto;
+    transform: translateY(55px);
+    margin-top: 55px;
+    background-color: white;
+    max-width: 60%;
+    height: 530px;
+    border-radius: 15px;
+    -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    .finnetWalletCompositionImg {
+      margin: 0 auto;
+      max-height: 100%;
+      max-width: 100%;
+      -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+      -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+      box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    }
+  }
+}
+@media screen and (max-width: 1184px) {
+  .section {
+    .container {
+      max-width: 90%;
+      .finnetWalletCompositionImg {
+        max-width: 100%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 970px) {
+  .section {
+    height: 900px;
+    .container {
+      max-width: 90%;
+      .finnetWalletCompositionImg {
+        max-width: 100%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 782px) {
+  .section {
+    .container {
+      max-width: 95%;
+      .finnetWalletCompositionImg {
+        max-width: 100%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 690px) {
+  .section {
+    height: 400px;
+    .container {
+      display: none;
+    }
   }
 }
