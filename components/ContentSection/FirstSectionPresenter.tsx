@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "../../styles/FirstSection.module.scss";
 import Link from "next/link";
 const FirstSectionPresenter = () => {
@@ -22,10 +21,11 @@ const FirstSectionPresenter = () => {
         </div>
         <img
           src="/images/Finnet-Operacje-Walutowe.png"
-          alt="Nature"
+          alt="FinnetCurrencyOperations"
           className={styles["responsive"]}></img>
         <img
           src="/images/deposit-landing-page.png"
+          alt="DepositFinnet"
           className={styles["responsiveSecond"]}></img>
       </section>
     </div>
