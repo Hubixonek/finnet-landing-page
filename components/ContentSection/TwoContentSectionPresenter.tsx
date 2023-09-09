@@ -9,9 +9,7 @@ import { RiWifiOffLine } from "react-icons/ri";
 const TwoSecondContentSectionPresenter = () => {
   return (
     <div className={styles["sectionGroup"]}>
-      <div className={styles["container"]}>
-        <h1>To jest moja druga sekcja z zawartością</h1>
-      </div>
+      <div className={styles["container"]}></div>
       <div className={styles["descriptionContainerGroup"]}>
         <div className={styles["desciprtionContainerOne"]}>
           <div className={styles["dollarIconContainer"]}>
