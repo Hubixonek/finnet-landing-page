@@ -3,45 +3,31 @@ import Image from "next/image";
 import Link from "next/link";
 const FourContentSectionPresenter = () => {
   return (
-    <div className={styles["sectionGroup"]}>
-      <div className={styles["container"]}>
-        <h2 className={styles["h2"]}>
-          <strong>Zyskaj więcej z Finnet</strong>
-        </h2>
-        <p className={styles["p"]}>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis debitis
-          eos voluptate cumque deserunt
-        </p>
-        <div className={styles["descriptionContainerGroup"]}>
-          <div className={styles["container"]}>
-            <div className={styles["containerImage"]}>
+    <div className={styles["wrapper"]}>
+      <div className={styles["row"]}>
+        <div className={styles["column"]}>
+          <div className={styles["settingsColumn"]}>
+            <div className={styles["imgContainer"]}>
               <Image
-                className={styles["settingsImage"]}
+                className={styles["img"]}
                 src="/images/settings.png"
                 alt="Rates operations"
                 width={100}
                 height={100}
                 layout="responsive"></Image>
             </div>
-            <h3>Automatyzacja</h3>
+            <h3>Finnetyzacja</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
               non repudiandae placeat optio fuga recusandae
             </p>
-            <div className={styles["btnContainer"]}>
-              <Link
-                href=""
-                rel="noopener"
-                target="_blank"
-                className={styles["btnCustom"]}>
-                Miejsce na przekierowanie
-              </Link>
-            </div>
           </div>
-          <div className={styles["container"]}>
-            <div className={styles["containerImage"]}>
+        </div>
+        <div className={styles["column"]}>
+          <div className={styles["searchColumn"]}>
+            <div className={styles["imgContainer"]}>
               <Image
-                className={styles["searchImage"]}
+                className={styles["img"]}
                 src="/images/search.png"
                 alt="Rates operations"
                 width={100}
@@ -53,41 +39,24 @@ const FourContentSectionPresenter = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
               non repudiandae placeat optio fuga recusandae
             </p>
-            <div className={styles["btnContainer"]}>
-              <Link
-                href=""
-                rel="noopener"
-                target="_blank"
-                className={styles["btnCustom"]}>
-                Miejsce na przekierowanie
-              </Link>
-            </div>
           </div>
-          <div className={styles["container"]}>
-            {" "}
-            <div className={styles["containerImage"]}>
+        </div>
+        <div className={styles["column"]}>
+          <div className={styles["walletColumn"]}>
+            <div className={styles["imgContainer"]}>
               <Image
-                className={styles["walletImage"]}
+                className={styles["img"]}
                 src="/images/wallet.png"
                 alt="Rates operations"
                 width={100}
                 height={100}
                 layout="responsive"></Image>
             </div>
-            <h3>Finnetyzacja </h3>
+            <h3>Automatyzacja</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
               non repudiandae placeat optio fuga recusandae
             </p>
-            <div className={styles["btnContainer"]}>
-              <Link
-                href=""
-                rel="noopener"
-                target="_blank"
-                className={styles["btnCustom"]}>
-                Miejsce na przekierowanie
-              </Link>
-            </div>
           </div>
         </div>
       </div>

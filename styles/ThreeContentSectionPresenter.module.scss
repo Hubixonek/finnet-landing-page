@@ -1,7 +1,7 @@
 .section {
   font-family: "Josefin Sans", sans-serif;
-  height: 800px;
-  max-width: 100%;
+  max-height: 100%;
+  min-width: 100%;
   background-image: linear-gradient(
     to top,
     #0066ff,
@@ -10,20 +10,21 @@
     #2b74f9,
     #3579f6
   );
+  .text {
+    padding: 2%;
+    h1 {
+      font-size: 48px;
+      color: white;
+      max-width: 100%;
+      text-align: center;
+    }
 
-  h1 {
-    font-size: 48px;
-  }
-  h1,
-  p {
-    margin: 0 auto;
-    transform: translateY(65px);
-    color: white;
-    max-width: 100%;
-    text-align: center;
-  }
-  p {
-    font-size: 20px;
+    p {
+      font-size: 20px;
+      color: white;
+      max-width: 100%;
+      text-align: center;
+    }
   }
   .btnCustom {
     display: flex;
@@ -33,7 +34,6 @@
     margin: 0 auto;
     background-color: rgba(247, 247, 247, 0.87);
     padding: 15px;
-    transform: translateY(90px);
     text-decoration: none;
     font-size: 18px;
     border-radius: 10px;
@@ -41,17 +41,10 @@
   .container {
     display: flex;
     margin: 0 auto;
-    transform: translateY(55px);
-    margin-top: 55px;
-    background-color: white;
-    max-width: 60%;
-    height: 530px;
-    border-radius: 15px;
-    -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
-    -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
-    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    margin-top: 0.5%;
+    max-width: 50%;
+
     .finnetWalletCompositionImg {
-      margin: 0 auto;
       max-height: 100%;
       max-width: 100%;
       -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
