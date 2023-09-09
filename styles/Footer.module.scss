@@ -4,13 +4,13 @@
   color: white;
   .elements {
     display: flex;
-    margin-left: 120px;
+    margin-left: 2%;
     justify-content: center;
     .titleAndLogin {
       padding: 15px;
-      margin-top: 30px;
+      margin-top: 1.7%;
       color: white;
-      margin-right: 70px;
+      margin-right: 2%;
       text-decoration: none;
     }
     .login {
@@ -49,13 +49,18 @@
     margin-bottom: 1%;
   }
   .textSection {
-    margin-top: 1.2%;
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    gap: 50px;
+
     ul {
       display: flex;
-      margin-left: 20.5%;
-      align-items: center;
+      gap: 15px;
+      flex-direction: row;
       list-style: none;
-      gap: 20px;
       font-size: 12px;
 
       li:hover:not(:last-child) {
@@ -63,19 +68,112 @@
         text-decoration: underline;
       }
     }
+    .mediaIconSection {
+      display: flex;
+      gap: 15px;
+      margin-left: 100%;
+      .icon {
+        display: flex;
+        font-size: 26px;
+        cursor: pointer;
+
+        &:hover {
+          color: rgba(255, 255, 255, 0.651);
+        }
+      }
+    }
   }
-  .mediaIconSection {
-    display: flex;
-    margin-left: 72%;
-    padding: 15px;
-    gap: 30px;
+}
+@media screen and (max-width: 1152px) {
+  .container {
+    .textSection {
+      .mediaIconSection {
+        margin-left: 19%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 518px) {
+  .container {
+    .elements {
+      flex-direction: column;
+      .titleAndLogin {
+        padding: 15px;
+        margin-top: 1.7%;
+        color: white;
+        margin-right: 2%;
+        text-decoration: none;
+      }
+      .login {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
 
-    .icon {
-      font-size: 26px;
-      cursor: pointer;
+      .footerDescription {
+        padding: 15px;
+        margin-top: 2%;
+        color: white;
+        text-decoration: none;
+        width: 250px;
 
-      &:hover {
-        color: rgba(255, 255, 255, 0.651);
+        &:hover {
+          height: 92px;
+          background-color: rgba(248, 248, 248, 0.205);
+        }
+        h3 {
+          font-size: 16px;
+        }
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+    .sectionLine {
+      width: 98%;
+      margin: 0 auto;
+      height: 1px;
+      background-color: rgba(255, 255, 255, 0.199);
+      margin-bottom: 1%;
+    }
+    .textSection {
+      display: flex;
+      max-width: 100%;
+      align-items: start;
+      justify-content: start;
+      flex: 1;
+      gap: 50px;
+
+      ul {
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+
+        list-style: none;
+        font-size: 12px;
+
+        li:hover:not(:last-child) {
+          cursor: pointer;
+          text-decoration: underline;
+        }
+      }
+      .mediaIconSection {
+        display: flex;
+
+        gap: 15px;
+        margin-left: 0%;
+        .icon {
+          display: flex;
+          font-size: 26px;
+          cursor: pointer;
+
+          &:hover {
+            color: rgba(255, 255, 255, 0.651);
+          }
+        }
       }
     }
   }

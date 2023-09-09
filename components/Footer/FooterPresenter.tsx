@@ -61,21 +61,21 @@ const FooterPresenter = () => {
           <li>
             <span>Copyright</span>
           </li>
+          <div className={styles["mediaIconSection"]}>
+            <div className={styles["icon"]}>
+              <FaFacebookSquare />
+            </div>
+            <div className={styles["icon"]}>
+              <FaInstagramSquare />
+            </div>
+            <div className={styles["icon"]}>
+              <FaLinkedin />
+            </div>
+            <div className={styles["icon"]}>
+              <FaTwitter />
+            </div>
+          </div>
         </ul>
-      </div>
-      <div className={styles["mediaIconSection"]}>
-        <div className={styles["icon"]}>
-          <FaFacebookSquare />
-        </div>
-        <div className={styles["icon"]}>
-          <FaInstagramSquare />
-        </div>
-        <div className={styles["icon"]}>
-          <FaLinkedin />
-        </div>
-        <div className={styles["icon"]}>
-          <FaTwitter />
-        </div>
       </div>
     </div>
   );
