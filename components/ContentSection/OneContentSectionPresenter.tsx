@@ -38,7 +38,7 @@ const OneContentSectionPresenter = () => {
         <div className={styles["column"]}>
           <ul>
             <li>
-              <img src="/images/Finnet-Pulpit.png" alt="FinnetPulpitImg"></img>
+              <img src="/images/Pulpit.png" alt="FinnetPulpitImg"></img>
             </li>
           </ul>
         </div>

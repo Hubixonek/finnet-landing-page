@@ -24,9 +24,7 @@ const FirstSectionPresenter = () => {
               alt="FinnetCurrencyOperations"></img>
           </li>
           <li>
-            <img
-              src="/images/deposit-landing-page.png"
-              alt="DepositFinnet"></img>
+            <img src="/images/deposit.png" alt="DepositFinnet"></img>
           </li>
         </ul>
       </div>
