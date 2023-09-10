@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "../../styles/FirstSection.module.scss";
 import Link from "next/link";
 const FirstSectionPresenter = () => {
@@ -25,11 +24,9 @@ const FirstSectionPresenter = () => {
               alt="FinnetCurrencyOperations"></img>
           </li>
           <li>
-            <Image
-              width={250}
-              height={650}
+            <img
               src="/images/deposit-landing-page.png"
-              alt="DepositFinnet"></Image>
+              alt="DepositFinnet"></img>
           </li>
         </ul>
       </div>

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "../../styles/OneContentSection.module.scss";
 const OneContentSectionPresenter = () => {
   return (
@@ -39,11 +38,7 @@ const OneContentSectionPresenter = () => {
         <div className={styles["column"]}>
           <ul>
             <li>
-              <Image
-                width={900}
-                height={700}
-                src="/images/Finnet-Pulpit.png"
-                alt="FinnetPulpitImg"></Image>
+              <img src="/images/Finnet-Pulpit.png" alt="FinnetPulpitImg"></img>
             </li>
           </ul>
         </div>

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "../../styles/ThreeContentSectionPresenter.module.scss";
 import Link from "next/link";
 const ThreeContentSectionPresenter = () => {
@@ -22,12 +21,10 @@ const ThreeContentSectionPresenter = () => {
       <div className={styles["container"]}>
         <ul>
           <li>
-            <Image
-              width={1000}
-              height={400}
+            <img
               src="/images/WalletComposition.png"
               alt="FinnetPulpitImg"
-              className={styles["finnetWalletCompositionImg"]}></Image>
+              className={styles["finnetWalletCompositionImg"]}></img>
           </li>
         </ul>
       </div>
