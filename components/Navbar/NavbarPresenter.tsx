@@ -6,18 +6,24 @@ type TNavbarPresenterProps = {
   toggleHandler: () => void;
   setShowNav: (showNav: boolean) => void;
   showNav: boolean;
+  smoothScrollHandler: () => void;
 };
 
 const NavbarPresenter = ({
   toggleHandler,
   setShowNav,
   showNav,
+  smoothScrollHandler,
 }: TNavbarPresenterProps) => {
   return (
     <div className={styles["container"]}>
       <nav className={styles["nav"]}>
         <div>
-          <Link href="/" scroll={false} className={styles["finnet"]}>
+          <Link
+            href="/"
+            scroll={false}
+            className={styles["finnet"]}
+            onClick={smoothScrollHandler}>
             Finnet
           </Link>
         </div>
