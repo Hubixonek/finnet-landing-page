@@ -66,9 +66,9 @@ Landing page powstał na potrzebę mojej głównej aplikacji jaką jest Finnet.
 
 ## Instalacja💾
 
-| Komendy                   |  Opis                         |     |
-| ------------------------- | ----------------------------- | --- |
-| `npm run dev`             | Otwórz lokalny serwer         |     |
-| `npm install  `           | Zainstaluj Potrzebne          |     |
-                              zależności                 
+| Komendy                   |  Opis                                   |     |
+| ------------------------- | --------------------------------------- | --- |
+| `npm run dev`             | Otwórz lokalny serwer                   |     |
+| `npm install  `           | Zainstaluj Potrzebne zależności         |     |
+                                               
 
