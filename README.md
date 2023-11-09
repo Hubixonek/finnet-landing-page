@@ -29,35 +29,10 @@ Landing page powstał na potrzebę mojej głównej aplikacji jaką jest Finnet.
 ## Zdjęcia aplikacji 📺
 
 <p align="center">
-  <img src="/public/images/Finnet-Landing-Page.PNG" alt="Finnet-Landing-Page">
-</p>
-
-<p align="center">
-    <img src="public/images/Finnet-Landing-Page-Second.PNG" alt="Finnet-Landing-Page-Second">
+    <img src="public/images/Finnet-Landing.png" alt="Finnet-Landing">
 </p>
 <p align="center">
-    <img src="public/images/Finnet-Landing-Page-3.PNG" alt="Finnet-Landing-Page-3">
-</p>
-<p align="center">
-    <img src="public/images/Finnet-Landing-Page-4.PNG" alt="Finnet-Landing-Page-3">
-</p>
-<p align="center">
-    <img src="public/images/Finnet Mobile.png" alt="Finnet Mobile">
-</p>
-<p align="center">
-    <img src="public/images/Finnet-Mobile-2.png" alt="Finnet-Mobile-2">
-</p>
-<p align="center">
-    <img src="public/images/Finnet-Mobile 3.png" alt="Finnet-Mobile 3">
-</p>
-<p align="center">
-    <img src="public/images/Finnet-Mobile-4.png" alt="Finnet-Mobile-4">
-</p>
-<p align="center">
-    <img src="public/images/Finnet-Mobile-5.png" alt="Finnet-Mobile-5">
-</p>
-<p align="center">
-    <img src="public/images/Finnet-Nav.png" alt="Finnet-Nav">
+    <img src="public/images/Finnet-Mobile.png" alt="Finnet-Mobile">
 </p>
 <p align="center">
 </p>
